@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "211760166678",
+    "firebase_url": "https://patient2patient-46302.firebaseio.com",
+    "project_id": "patient2patient-46302",
+    "storage_bucket": "patient2patient-46302.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211760166678:android:39603d7f46acd8b2",
+        "android_client_info": {
+          "package_name": "com.example.bruce.patient2patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211760166678-17t8b7ekb3ejpjip0ssbg2gohlh06gid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bruce.patient2patient",
+            "certificate_hash": "70faf4a450eb536fff07cb7697ea0c95b639fe91"
+          }
+        },
+        {
+          "client_id": "211760166678-5pgc3oqtk4f7ge62ej2bmlqs7fa7c5s5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjYGKdA2McnSz5LCAyeiTMq6xbRsijrwU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211760166678-5pgc3oqtk4f7ge62ej2bmlqs7fa7c5s5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
