@@ -1,6 +1,7 @@
-package com.example.bruce.patient2patient; /**
+/**
  * Created by VADVASX on 6/22/2017.
  */
+package com.example.bruce.patient2patient;
 import java.util.ArrayList;
 public class Person {
 
