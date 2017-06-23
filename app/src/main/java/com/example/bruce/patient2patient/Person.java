@@ -15,6 +15,7 @@ public class Person {
     private String hospital;
     private String description;
     private ArrayList favorites = new ArrayList();
+    private ArrayList Chat = new ArrayList();
     //private ArrayList chats = new ArrayList();
 
     public Person(String myUsername, String myLocation){
