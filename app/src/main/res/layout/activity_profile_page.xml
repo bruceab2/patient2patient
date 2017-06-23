@@ -96,13 +96,13 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Find People like me"
-        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/profileDescription"
         android:layout_alignLeft="@+id/profileDescription"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/profileDescription"
         android:layout_alignStart="@+id/profileDescription"
         android:layout_marginBottom="57dp"
-        android:layout_alignRight="@+id/profileDescription"
-        android:layout_alignEnd="@+id/profileDescription" />
+        android:text="Chat with friends" />
 
     <EditText
         android:id="@+id/profileClinicalTrial"
@@ -136,6 +136,15 @@
         android:layout_below="@+id/profileAge"
         android:layout_alignLeft="@+id/profileAge"
         android:layout_alignStart="@+id/profileAge" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
 
 
 </android.widget.RelativeLayout>

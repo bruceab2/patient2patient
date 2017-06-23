@@ -47,4 +47,13 @@
         app:srcCompat="@mipmap/ic_launcher_round"
         />
 
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="profile"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+
 </RelativeLayout>
