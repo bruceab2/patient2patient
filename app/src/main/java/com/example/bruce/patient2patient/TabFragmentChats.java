@@ -16,7 +16,7 @@ public class TabFragmentChats extends Fragment {
 
 
     private RecyclerView mRecyclerView;
-    private AccountStatementAdapter mAccountStatementAdapter;
+    private RecentChatAdapter mRecentChatAdapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -32,8 +32,8 @@ public class TabFragmentChats extends Fragment {
         mRecyclerView.setLayoutManager(layoutManager);
         LayoutInflater layoutInflater = getLayoutInflater();
         View relView = layoutInflater.inflate(R.layout.item_account_transaction, null);
-        mAccountStatementAdapter = new AccountStatementAdapter(this, currAccount, ID);
-        mRecyclerView.setAdapter(mAccountStatementAdapter);
+        mRecentChatAdapter = new RecentChatAdapter(this, currAccount, ID);
+        mRecyclerView.setAdapter(mRecentChatAdapter);
 
 
         return rootView;

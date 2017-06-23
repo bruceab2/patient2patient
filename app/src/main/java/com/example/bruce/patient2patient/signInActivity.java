@@ -33,8 +33,6 @@ public class signInActivity extends AppCompatActivity implements GoogleApiClient
     private static final int RC_SIGN_IN = 9001;
     private FirebaseAuth mAuth;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,7 +54,7 @@ public class signInActivity extends AppCompatActivity implements GoogleApiClient
             @Override
             public void onClick(View v) {
                 signIn();
-                Intent intent = new Intent(v.getContext(), HomeActivity.class);
+                Intent intent = new Intent(v.getContext(), ProfilePage.class);
                 startActivity(intent);
             }
         });
