@@ -79,6 +79,9 @@ public class Person {
     public ArrayList getFavorites () {
         return this.favorites;
     }
+    public String getUsername() {
+        return this.username;
+    }
     //public Chats[] getChats () {
     // return this.chats;}
 

@@ -16,15 +16,15 @@ public class TabFragmentChats extends Fragment {
 
 
     private RecyclerView mRecyclerView;
-   // private AccountStatementAdapter mAccountStatementAdapter;
+    private AccountStatementAdapter mAccountStatementAdapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
 
-  //  @Override
-   /* public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tab_fragment_chats, container, false);
 
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recycler_view_chat);
@@ -37,6 +37,6 @@ public class TabFragmentChats extends Fragment {
 
 
         return rootView;
-    }*/
+    }
 
 }
