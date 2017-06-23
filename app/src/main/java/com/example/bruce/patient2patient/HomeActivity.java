@@ -65,7 +65,8 @@ public class HomeActivity extends AppCompatActivity {
         buttonProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), ProfilePage.class);
+                //Intent intent = new Intent(v.getContext(), ProfilePage.class);
+                Intent intent = new Intent(v.getContext(), ChatActivity.class);
                 startActivity(intent);
             }
         });

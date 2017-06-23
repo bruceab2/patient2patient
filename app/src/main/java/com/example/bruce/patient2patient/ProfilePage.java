@@ -43,15 +43,14 @@ public class ProfilePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_page);
 
-        usernameTextView = (EditText) findViewById(R.id.);
-        treatmentTextView = (EditText) findViewById(R.id.);
-        clinicalTrialTextView = (EditText) findViewById(R.id.);
-        diagnosisTextView = (EditText) findViewById(R.id.);
-        locationTextView = (EditText) findViewById(R.id.);
-        ageTextView = (EditText) findViewById(R.id.);
-        genderTextView = (EditText) findViewById(R.id.);
-        hospitalTextView = (EditText) findViewById(R.id.);
-        descriptionTextView = (EditText) findViewById(R.id.);
+        usernameTextView = (EditText) findViewById(R.id.profileUsername);
+        treatmentTextView = (EditText) findViewById(R.id.profileTreatment);
+        clinicalTrialTextView = (EditText) findViewById(R.id.profileClinicalTrial);
+        locationTextView = (EditText) findViewById(R.id.profileLocation);
+        ageTextView = (EditText) findViewById(R.id.profileAge);
+        genderTextView = (EditText) findViewById(R.id.profileGender);
+        //hospitalTextView = (EditText) findViewById(R.id.profileHospital);
+        descriptionTextView = (EditText) findViewById(R.id.profileDescription);
 
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);

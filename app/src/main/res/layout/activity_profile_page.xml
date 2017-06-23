@@ -45,65 +45,97 @@
         android:src="@drawable/phoenix"
         android:layout_below="@+id/content" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/floatingActionButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:fabSize="mini"
-        app:srcCompat="@android:drawable/ic_input_add"
-        android:layout_below="@+id/editText4"
-        android:layout_alignLeft="@+id/editText4"
-        android:layout_alignStart="@+id/editText4"
-        android:layout_marginTop="57dp" />
-
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/profileUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="17dp"
-        android:layout_marginStart="17dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter avataar name"
+        android:text="Fawkes"
         android:layout_alignBottom="@+id/navigation"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignStart="@+id/editText2" />
+        android:layout_alignLeft="@+id/profileTreatment"
+        android:layout_alignStart="@+id/profileTreatment" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/profileTreatment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="29dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Treatment or Diagnosis"
+        android:text="Psoraisis"
         android:layout_below="@+id/imageView3"
         android:layout_centerHorizontal="true" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/profileLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignStart="@+id/editText2"
-        android:layout_below="@+id/editText2"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Location" />
+        android:text="Chicago"
+        android:layout_below="@+id/profileTreatment"
+        android:layout_alignLeft="@+id/profileTreatment"
+        android:layout_alignStart="@+id/profileTreatment" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/profileDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/editText3"
-        android:layout_alignRight="@+id/editText3"
-        android:layout_below="@+id/editText3"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="11dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:text="Description"
+        android:layout_below="@+id/profileLocation"
+        android:layout_alignLeft="@+id/profileLocation"
+        android:layout_alignStart="@+id/profileLocation" />
+
+    <Button
+        android:id="@+id/match"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find People like me"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/profileDescription"
+        android:layout_alignStart="@+id/profileDescription"
+        android:layout_marginBottom="57dp"
+        android:layout_alignRight="@+id/profileDescription"
+        android:layout_alignEnd="@+id/profileDescription" />
+
+    <EditText
+        android:id="@+id/profileClinicalTrial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/profileDescription"
+        android:layout_alignStart="@+id/profileDescription"
+        android:layout_below="@+id/profileDescription"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Clinical Trial" />
+
+    <EditText
+        android:id="@+id/profileAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/profileClinicalTrial"
+        android:layout_alignStart="@+id/profileClinicalTrial"
+        android:layout_below="@+id/profileClinicalTrial"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Age" />
+
+    <EditText
+        android:id="@+id/profileGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Gender"
+        android:layout_below="@+id/profileAge"
+        android:layout_alignLeft="@+id/profileAge"
+        android:layout_alignStart="@+id/profileAge" />
 
 
 </android.widget.RelativeLayout>

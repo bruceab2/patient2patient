@@ -8,5 +8,6 @@
 
     <string name="favorites">Favorites</string>
     <string name="chats">Recent Chats</string>
+    <string name="title_activity_chat">ChatActivity</string>
 
 </resources>
