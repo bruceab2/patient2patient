@@ -37,17 +37,13 @@
         app:layout_constraintLeft_toRightOf="parent"
         android:layout_marginLeft="172dp" />
 
-    <android.support.v4.widget.CircleImageView />
+
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/navigation"
-        android:layout_marginLeft="42dp"
-        android:layout_marginStart="42dp"
-        android:layout_toEndOf="@+id/content"
-        android:layout_toRightOf="@+id/content"
-        app:srcCompat="@android:drawable/ic_menu_camera" />
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/phoenix"
+        android:layout_below="@+id/content" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingActionButton4"
@@ -65,26 +61,25 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView3"
-        android:layout_marginLeft="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_toEndOf="@+id/imageView3"
-        android:layout_toRightOf="@+id/imageView3"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter avataar name" />
+        android:text="Enter avataar name"
+        android:layout_alignBottom="@+id/navigation"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView3"
-        android:layout_alignStart="@+id/imageView3"
-        android:layout_below="@+id/editText"
-        android:layout_marginTop="58dp"
+        android:layout_marginTop="29dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Treatment or Diagnosis" />
+        android:text="Treatment or Diagnosis"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/editText3"
