@@ -16,7 +16,7 @@ public class TabFragmentChats extends Fragment {
 
 
     private RecyclerView mRecyclerView;
-    private AccountStatementAdapter mAccountStatementAdapter;
+//    private AccountStatementAdapter mAccountStatementAdapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -27,14 +27,14 @@ public class TabFragmentChats extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tab_fragment_chats, container, false);
 
-        mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recycler_view_chat);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
-        mRecyclerView.setLayoutManager(layoutManager);
-        LayoutInflater layoutInflater = getLayoutInflater();
-        View relView = layoutInflater.inflate(R.layout.item_account_transaction, null);
-        mAccountStatementAdapter = new AccountStatementAdapter(this, currAccount, ID);
-        mRecyclerView.setAdapter(mAccountStatementAdapter);
-
+//        mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recycler_view_chat);
+//        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
+//        mRecyclerView.setLayoutManager(layoutManager);
+//        LayoutInflater layoutInflater = getLayoutInflater();
+//        View relView = layoutInflater.inflate(R.layout.item_account_transaction, null);
+//        mAccountStatementAdapter = new AccountStatementAdapter(this, currAccount, ID);
+//        mRecyclerView.setAdapter(mAccountStatementAdapter);
+//
 
         return rootView;
     }
